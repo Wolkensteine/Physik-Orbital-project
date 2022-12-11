@@ -111,11 +111,11 @@ if __name__ == "__main__":
                     x += increase
                     x = round(x, 5)
                 print("h above earth: " + str(i) + " w: " + str(j) + " mass ratio: " + str(k))
-                print("Best dV2 delta: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
+                print("Best dV2 delta percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
                 print("Best dV1: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
 
                 file.write("h above earth: " + str(i) + " w: " + str(j) + " mass ratio: " + str(k))
-                file.write("Best dV2 delta: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
+                file.write("Best dV2 delta percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
                 file.write("Best dV1: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
 
                 minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit = 1000000
