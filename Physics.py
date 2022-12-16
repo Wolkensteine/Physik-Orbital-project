@@ -4,20 +4,21 @@ gravitational_constant = 6.67259 * (10 ** -11)
 earth_radius = 6.37104 * (10 ** 6)
 earth_mass = 5.9736 * (10 ** 24)
 
-range_begin = 0
-range_end = 100
+range_begin = 10
+range_end = 90
 
-increase = 0.00001
+increase = 0.0001
 
 give_start_orbit_height_above_earth_range_begin = 400000
-give_start_orbit_height_above_earth_range_end = 36000000
-given_specific_impulse_range_begin = 2000
-given_specific_impulse_range_end = 5000
+give_start_orbit_height_above_earth_range_end = 80000
+given_specific_impulse_range_begin = 3000
+given_specific_impulse_range_end = 4000
 given_mass_ratio_range_begin = 5
-given_mass_ratio_range_end = 10
+given_mass_ratio_range_end = 6
 
 minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit = 1000000
 minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position = 0
+max_orbit_height = 400000
 
 
 def total_delta_velocity(specific_impulse, mass_ratio):
@@ -40,8 +41,6 @@ def get_elliptical_orbit_apoapsis_height(central_mass, height_periapsis, velocit
 if __name__ == "__main__":
     print("Starting simulation ...")
 
-    file = open("./Output/PhysicsData.txt", "w")
-
     i = give_start_orbit_height_above_earth_range_begin
     j = given_specific_impulse_range_begin
     k = given_mass_ratio_range_begin
@@ -57,8 +56,8 @@ if __name__ == "__main__":
                     # print("V0 = " + str(start_velocity))
                     # print()
 
-                    dv1 = round(100 - x, 5)
-                    dv2 = round(x, 5)
+                    dv1 = round(100 - x, 4)
+                    dv2 = round(x, 4)
                     # print("dV1 : dV2 => " + str(dv1) + " : " + str(dv2))
 
                     delta_velocity = total_delta_velocity(j, k)
@@ -95,38 +94,44 @@ if __name__ == "__main__":
                     # delta_velocity_transfer_final_orbit))
                     # print()
 
-                    # print("cur best dv1: " + str(
-                    # minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
-                    # print("cur best dv2: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
-                    # print("this dv1: " + str(dv1))
-                    # print("this dv2: " + str(delta_velocity_two - delta_velocity_transfer_final_orbit))
-                    # print()
+                    print("cur best dv1: " + str(
+                    minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
+                    print("cur best dv2: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
+                    print("this dv1: " + str(dv1))
+                    print("this dv2: " + str(delta_velocity_two - delta_velocity_transfer_final_orbit))
+                    print()
                     if minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit > \
                             (delta_velocity_two - delta_velocity_transfer_final_orbit) > 0:
                         # print("This dv2 is better then the current best. Changing this ...")
                         minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit = \
                             delta_velocity_two - delta_velocity_transfer_final_orbit
                         minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position = dv1
+                        max_orbit_height = apoapsis_height_transfer_orbit
 
                     x += increase
-                    x = round(x, 5)
+                    x = round(x, 4)
                 print("h above earth: " + str(i) + " w: " + str(j) + " mass ratio: " + str(k))
-                print("Best dV2 delta percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
-                print("Best dV1: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
+                print("Best dV2 delta: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
+                print("Best dV1 percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
+                print("Max height: " + str(max_orbit_height))
 
-                file.write("h above earth: " + str(i) + " w: " + str(j) + " mass ratio: " + str(k))
-                file.write("Best dV2 delta percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
-                file.write("Best dV1: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
+                file = open("./Output/PhysicsData.txt", "a")
 
+                file.write("h above earth: " + str(i) + " w: " + str(j) + " mass ratio: " + str(k) + "\n")
+                file.write("Best dV2 delta: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit) + "\n")
+                file.write("Best dV1 percentage: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position) + "\n")
+                file.write("Max height: " + str(max_orbit_height))
+
+                file.close()
+
+                max_orbit_height = 400000
                 minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit = 1000000
                 minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position = 0
-                k += 1
+                k += 5
                 x = range_begin
             k = given_mass_ratio_range_begin
-            j += 100
+            j += 1000
         j = given_specific_impulse_range_begin
         i += 10000
-
-    file.close()
 
     print("Simulation done.")
