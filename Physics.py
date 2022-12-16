@@ -10,7 +10,7 @@ range_end = 90
 increase = 0.0001
 
 give_start_orbit_height_above_earth_range_begin = 400000
-give_start_orbit_height_above_earth_range_end = 80000
+give_start_orbit_height_above_earth_range_end = 810000
 given_specific_impulse_range_begin = 3000
 given_specific_impulse_range_end = 4000
 given_mass_ratio_range_begin = 5
@@ -94,12 +94,12 @@ if __name__ == "__main__":
                     # delta_velocity_transfer_final_orbit))
                     # print()
 
-                    print("cur best dv1: " + str(
-                    minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
-                    print("cur best dv2: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
-                    print("this dv1: " + str(dv1))
-                    print("this dv2: " + str(delta_velocity_two - delta_velocity_transfer_final_orbit))
-                    print()
+                    # print("cur best dv1: " + str(
+                    # minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit_position))
+                    # print("cur best dv2: " + str(minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit))
+                    # print("this dv1: " + str(dv1))
+                    # print("this dv2: " + str(delta_velocity_two - delta_velocity_transfer_final_orbit))
+                    # print()
                     if minimum_difference_needed_provided_delta_velocity_transfer_finale_orbit > \
                             (delta_velocity_two - delta_velocity_transfer_final_orbit) > 0:
                         # print("This dv2 is better then the current best. Changing this ...")
