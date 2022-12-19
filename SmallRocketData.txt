@@ -1,0 +1,127 @@
+h above earth: 400000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001959133386208123
+Best dV1 percentage: 80.687
+Max height: 12727921.248998808h above earth: 400000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001959133386208123
+Best dV1 percentage: 80.687
+Max height: 12727921.248998808h above earth: 410000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0034934645734665537
+Best dV1 percentage: 80.7081
+Max height: 12742703.335336141h above earth: 420000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00285934825762979
+Best dV1 percentage: 80.7292
+Max height: 12757478.272950374h above earth: 430000 w: 3000 mass ratio: 5
+Best dV2 delta: 6.460783913553314e-05
+Best dV1 percentage: 80.7503
+Max height: 12772246.072069868h above earth: 440000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.003949726265091158
+Best dV1 percentage: 80.7712
+Max height: 12787016.735719435h above earth: 450000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001273793319228389
+Best dV1 percentage: 80.7922
+Max height: 12801775.30275411h above earth: 460000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0008773442147003152
+Best dV1 percentage: 80.8131
+Max height: 12816531.782104168h above earth: 470000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0027684388714988017
+Best dV1 percentage: 80.8339
+Max height: 12831286.201778334h above earth: 480000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.002538221393820095
+Best dV1 percentage: 80.8547
+Max height: 12846033.56945667h above earth: 490000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00019427868653565383
+Best dV1 percentage: 80.8755
+Max height: 12860773.895179112h above earth: 500000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00016129891798755125
+Best dV1 percentage: 80.8962
+Max height: 12875512.221155953h above earth: 510000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.002447186828021586
+Best dV1 percentage: 80.9168
+Max height: 12890248.575231394h above earth: 520000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.002642406288487109
+Best dV1 percentage: 80.9374
+Max height: 12904977.94110649h above earth: 530000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0007543916402710238
+Best dV1 percentage: 80.958
+Max height: 12919700.328697473h above earth: 540000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001208205116085992
+Best dV1 percentage: 80.9785
+Max height: 12934420.803880144h above earth: 550000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.004011600247508795
+Best dV1 percentage: 80.9989
+Max height: 12949139.394336477h above earth: 560000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0003364375630781069
+Best dV1 percentage: 81.0194
+Max height: 12963845.9919843h above earth: 570000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.003443786410230132
+Best dV1 percentage: 81.0397
+Max height: 12978555.810193956h above earth: 580000 w: 3000 mass ratio: 5
+Best dV2 delta: 8.711223551927105e-05
+Best dV1 percentage: 81.0601
+Max height: 12993253.65516248h above earth: 590000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0035281986079098715
+Best dV1 percentage: 81.0803
+Max height: 13007954.77577664h above earth: 600000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0005196514516683237
+Best dV1 percentage: 81.1006
+Max height: 13022643.942596143h above earth: 610000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.004323968834683001
+Best dV1 percentage: 81.1207
+Max height: 13037336.439986475h above earth: 620000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0016928987412256902
+Best dV1 percentage: 81.1409
+Max height: 13052017.002908457h above earth: 630000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0014708087427379724
+Best dV1 percentage: 81.161
+Max height: 13066695.841860617h above earth: 640000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0036651262180384947
+Best dV1 percentage: 81.181
+Max height: 13081372.984168h above earth: 650000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0038641363781835025
+Best dV1 percentage: 81.201
+Max height: 13096043.335993432h above earth: 660000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.002074804166340982
+Best dV1 percentage: 81.221
+Max height: 13110706.906870931h above earth: 670000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.002723428510876147
+Best dV1 percentage: 81.2409
+Max height: 13125368.839227844h above earth: 680000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001397798559878538
+Best dV1 percentage: 81.2608
+Max height: 13140024.021422282h above earth: 690000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0025244061830562714
+Best dV1 percentage: 81.2806
+Max height: 13154677.607607026h above earth: 700000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0016907110839383677
+Best dV1 percentage: 81.3004
+Max height: 13169324.474285278h above earth: 710000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0033233986989671394
+Best dV1 percentage: 81.3201
+Max height: 13183969.787323605h above earth: 720000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.003009600385212252
+Best dV1 percentage: 81.3398
+Max height: 13198608.411382794h above earth: 730000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00075604406686125
+Best dV1 percentage: 81.3595
+Max height: 13213240.355801586h above earth: 740000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0009897068499640227
+Best dV1 percentage: 81.3791
+Max height: 13227870.803996783h above earth: 750000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0037176419359639112
+Best dV1 percentage: 81.3986
+Max height: 13242499.782871708h above earth: 760000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00010578439139408147
+Best dV1 percentage: 81.4182
+Max height: 13257116.947605575h above earth: 770000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.0034223593499973504
+Best dV1 percentage: 81.4376
+Max height: 13271737.86494295h above earth: 780000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.00041230378826639935
+Best dV1 percentage: 81.4571
+Max height: 13286346.986567385h above earth: 790000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.004344559776995993
+Best dV1 percentage: 81.4764
+Max height: 13300959.914340016h above earth: 800000 w: 3000 mass ratio: 5
+Best dV2 delta: 0.001963219441563524
+Best dV1 percentage: 81.4958
+Max height: 13315561.064713962
